@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Jquery Plugin (Reverse Text) Demonstration by JKTAN. JK Tan is a freelance software engineer who owns the Bachelor Degree of Cognitive Science (Artificial Intelligence) in University Malaysia Sarawak, Malaysia. He is good at Artificial Intelligence algorithm and calculation. Title of his final year thesis is Phylogenetic Tree Image Classification using Support Vector Method which is able to classify the image from pdf file. Meanwhile, he is proficient in web and mobile development programming language. They are HTML5, CSS3. PHP. JAVASCRIPT, MYSQL, NOSQL, Python. JAVA, C++, C# and SWIFT IOS. Slapping the keyboard until something good happens. JK is a tech geek who is passionate about Artificial Intelligence and Information Technology. He thinks that technology will be a major tool to lead people to progress.">
+    <meta name="keywords" content="JK, Freelancer, Developer, JAVA, Android Studio, Xcode, Web Development, Android Development, IOS Development, Facebook Analytic Analysis, Facebook, Google, Artificial Intelligence, TensorFlow, HTML,CSS,XML,JavaScript, Tutorial, Personal Blog, Love, Programming, Tech Greek, Jquery Plugin, Reverse Text">
+    <meta name="author" content="JK TAN">
+   	<title>Demonstration of Jquery Reverse Text Plugin</title>
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<h1>jQuery plugin: reverseText</h1>
+<p>This jQuery plugin reverses all the text in the selected nodes.</p>
+
+<ul>
+<li>This text will be reversed</li>
+<li>This text will not be reversed</li>
+<li>reversed</li>
+<li>not reversed</li>
+</ul>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.reversetext.js"></script>
+<script type="text/javascript">
+// reverse even-numbered LI tag text
+$("ul li:odd").reverseText();
+</script>
+
+</body>
+</html>
