@@ -1,5 +1,5 @@
 /*!
- * jQuery Cookie Plugin v1.0.0
+ * jQuery Reverse Plugin v1.0.0
  * 
  *
  * Copyright 2017 JK TAN
